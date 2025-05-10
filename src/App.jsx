@@ -12,6 +12,7 @@ import MyPage from './components/Mypage'
 import Music from './components/Music'
 
 
+
 function App() {
   const [emojis] = useState([{mood: '기쁨',Emoji:'😀',types: 'happy'},{mood: '슬픔',Emoji:'😢',types: 'sad'},{mood:'화남',Emoji:'😠',types:'anger'},{mood:'스트레스',Emoji:'😣',types:'stress'}])
 
