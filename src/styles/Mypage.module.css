@@ -1,0 +1,38 @@
+.pageContainer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0f1115;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  
+  .pageTitle {
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #7fff00;
+    margin-bottom: 50px;
+  }
+  
+  .chartWrapper {
+    background-color: #1a1c20;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    max-width: 600px;
+    width: 90%;
+  }
+  
+  @media (max-width: 768px) {
+    .chartWrapper {
+      padding: 20px;
+    }
+  
+    .pageTitle {
+      font-size: 2rem;
+    }
+  }
+  

@@ -1,0 +1,93 @@
+.container {
+   width: 100%;
+   min-height: 100vh;
+   background-color: #13171b;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2rem;
+   box-sizing: border-box;
+ }
+ 
+ .login {
+   width: 100%;
+   max-width: 420px;
+   background-color: #1f242a;
+   padding: 2.5rem 2rem;
+   border-radius: 20px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: white;
+   font-family: "Rubik Mono One", monospace;
+ }
+ 
+ h2 {
+   font-size: 2rem;
+   color: #6fcf1c;
+   margin-bottom: 2rem;
+ }
+ 
+ .form {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+ }
+ 
+ .input {
+   width: 100%;
+   padding: 1rem;
+   border-radius: 10px;
+   border: 2px solid #6fcf1c;
+   background-color: #2c2f34;
+   color: white;
+   font-size: 1rem;
+   outline: none;
+ }
+ 
+ .input::placeholder {
+   color: #cccccc;
+ }
+ 
+ .button {
+   padding: 1rem;
+   font-size: 1rem;
+   font-weight: 700;
+   border-radius: 10px;
+   background-color: #6fcf1c;
+   color: #13171b;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .button:hover {
+   background-color: #8aff4c;
+ }
+ 
+ .hr {
+   width: 100%;
+   margin: 2rem 0 1rem;
+   border: none;
+   border-top: 1px solid #444;
+ }
+ 
+ .googleButton {
+   width: 100%;
+   padding: 1rem;
+   font-size: 1rem;
+   font-weight: 700;
+   border-radius: 10px;
+   background-color: #ffffff;
+   color: #333;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .googleButton:hover {
+   background-color: #eaeaea;
+ }
+ 

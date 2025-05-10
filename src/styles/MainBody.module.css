@@ -1,0 +1,101 @@
+@keyframes fadeUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .emojiBox {
+    width: 95%;
+    height: 850px;
+    margin: auto;
+    transform: translateY(20px);
+    background-color: rgb(19, 23, 27);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    animation: fadeUp 0.6s ease-out;
+  }
+  
+  .emojip {
+    font-size: 2rem;
+    line-height: 50px;
+    transform: translateY(-40px);
+  }
+  
+  .mainp {
+    font-size: 2rem;
+    font-weight: 700;
+    transform: translateY(-30px);
+  }
+  
+  .emojis {
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .moodBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .emoji {
+    font-size: 12rem;
+    transition: all 1s ease;
+  }
+  
+  .mood {
+    font-size: 2rem;
+    font-weight: 700;
+    transform: translateY(-25px);
+  }
+  
+  .emoji:hover {
+    scale: 1.19;
+  }
+  
+  /* ✅ 반응형 추가 */
+  @media (max-width: 768px) {
+    .emojis {
+      grid-template-columns: 1fr;
+      grid-template-rows: none;
+      gap: 20px;
+    }
+  
+    .emoji {
+      font-size: 8rem;
+    }
+  
+    .mood {
+      font-size: 1.5rem;
+    }
+  
+    .emojip,
+    .mainp {
+      font-size: 1.5rem;
+      transform: none;
+      text-align: center;
+    }
+  
+    .emojiBox {
+      height: auto;
+      padding: 2rem 1rem;
+    }
+  }
+  
