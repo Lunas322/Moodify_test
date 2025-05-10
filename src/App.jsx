@@ -5,11 +5,11 @@ import MainBody from './components/MainBody'
 import Layout from './components/Layout'
 
 import { useState } from 'react'
-import Login from './components/login'
+import Login from './components/Login'
 import SignUp from './components/SignUp'
 import History from './components/History'
 import MyPage from './components/Mypage'
-import Music from './components/music'
+import Music from './components/Music'
 
 
 function App() {
