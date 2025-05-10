@@ -7,8 +7,8 @@ import { db } from "../firebase/firebase";
 import { auth } from "../firebase/firebase"; 
 
 
-const API = "AIzaSyAsYn4pHVKMfTDbpC9UG4J6h4dvFLppAWE"
 
+const API = import.meta.env.VITE_YOUTUBE_API_KEY;
 const musicKeyworld = {
   happy: "신나는 힙합",
   sad: "슬픈감성 힙합",

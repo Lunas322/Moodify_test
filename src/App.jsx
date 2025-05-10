@@ -3,12 +3,13 @@ import { Route, Router, Routes } from 'react-router-dom'
 import './App.css'
 import MainBody from './components/MainBody'
 import Layout from './components/Layout'
-import Music from './components/music'
+
 import { useState } from 'react'
 import Login from './components/login'
 import SignUp from './components/SignUp'
 import History from './components/History'
 import MyPage from './components/Mypage'
+import Music from './components/music'
 
 
 function App() {
