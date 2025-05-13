@@ -9,6 +9,17 @@
     padding-top: 80px;
     font-family: 'Noto Sans KR', sans-serif;
   }
+  .container {
+    padding: 40px;
+    background-color: #121212;
+    min-height: 100vh;
+    color: white;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 900;
+    color: #6fcf1c;
+    margin-bottom: 30px;
+  }
   
   .pageTitle {
     font-size: 2.4rem;

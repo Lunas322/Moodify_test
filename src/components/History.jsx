@@ -23,6 +23,7 @@ function History() {
       );
 
       const snapshot = await getDocs(q);
+      console.log(snapshot)
       const data = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
       setHistory(data);
       setLoading(false);
@@ -36,7 +37,7 @@ function History() {
   if (!user) {
     return (
       <div className={styles.container}>
-        <h2 className={styles.title}>로그인 후 이용할 수 있습니다.</h2>
+        <h2 className={styles.title}>History는 로그인 후 이용할 수 있습니다.</h2>
       </div>
     );
   }

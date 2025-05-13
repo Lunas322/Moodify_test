@@ -21,7 +21,6 @@ function Music() {
   const [musicList, setMusicList] = useState([]);
   const [MusicCount, setMusiCount] = useState(0);
   const [note, setNote] = useState("");
-
   const mood =
     emojitype === "sad"
       ? "슬픈"
@@ -63,7 +62,7 @@ function Music() {
       setNote("");
     } catch (error) {
       console.error("기분 저장 실패:", error);
-      alert("저장 중 문제가 생겼습니다.");
+      alert("로그인 후 이용하세요.");
     }
   };
 
@@ -99,7 +98,6 @@ function Music() {
           {`현재 ${mood} 기분을 가지고 있는 당신에게`}
         </h3>
         <h3 className={styles.moodText}>이 노래를 추천할게요 🙂</h3>
-
         {musicList.length > 0 && (
           <div className={styles.MusicItem}>
             <iframe

@@ -47,7 +47,7 @@ function MyPage() {
   }, [user]);
 
   if (!user) {
-    return <p style={{ color: "white", textAlign: "center", marginTop: "50px" }}>로그인 후 이용해주세요.</p>;
+    return <p className={styles.container}>My page는 로그인 후 이용할 수 있습니다.</p>;
   }
 
   return (
